@@ -18,4 +18,4 @@ class Solution(object):
                 curr = ""
             else:
                 curr += p
-
+        return "/" + "/".join(stack)
