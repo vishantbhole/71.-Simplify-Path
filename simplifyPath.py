@@ -19,3 +19,8 @@ class Solution(object):
             else:
                 curr += p
         return "/" + "/".join(stack)
+
+if __name__ == "__main__":
+    sol = Solution()
+    path = "/home//foo/"
+    print("Output is : ", sol.simplifyPath(path))
