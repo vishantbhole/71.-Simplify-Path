@@ -6,3 +6,6 @@ class Solution(object):
         :type path: str
         :rtype: str
         """
+        stack = []
+        curr = ""
+
